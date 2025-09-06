@@ -1,0 +1,15 @@
+gocart_standalone_np1 0 0
+gocart_standalone_np2 0 0
+gocart_standalone_np3 0 0
+gocart_standalone_np4 0 0
+gocart_standalone_np2_vs_np1 0 0
+gocart_standalone_np3_vs_np1 0 0
+gocart_standalone_np4_vs_np1 0 0
+---
+gocart_standalone_np1
+gocart_standalone_np2
+gocart_standalone_np3
+gocart_standalone_np4
+gocart_standalone_np2_vs_np1
+gocart_standalone_np3_vs_np1
+gocart_standalone_np4_vs_np1

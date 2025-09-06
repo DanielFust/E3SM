@@ -1,0 +1,749 @@
+strict digraph G {
+rankdir="LR"
+0 [
+  shape=box
+  penwidth=4
+  fontsize=30
+  label=<
+    <table border="0">
+      <tr><td><b><font point-size="40">GOCART</font></b></td></tr>
+      <hr/>
+      <tr><td align="left"><b><font color="#88621e">Computed Fields:</font></b></td></tr>
+      <tr><td align="left"><font color="black">  O3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  OH [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  HO2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  H2O2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CH2O [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CH3O2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CH3OOH [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  NO [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  NO2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  NO3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  N2O5 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  HNO3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  HO2NO2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  PAN [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CO [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  C2H6 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  C3H8 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  C2H4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  ROHO2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CH3COCH3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  C2H5O2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  C2H5OOH [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CH3CHO [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CH3CO3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  ISOP [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  ISOP_VBS [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  ISOPO2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  C10H16 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  MVKMACR [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  MVKO2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  E90 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  N2OLNZ [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  NOYLNZ [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CH4LNZ [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  H2OLNZ [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  DMS [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SO2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  H2SO4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG0 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG15 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG24 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG31 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG32 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG33 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG34 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG35 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  so4_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  so4_a2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  so4_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  so4_a5 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  pom_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  pom_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  pom_a4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  soa_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  soa_a2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  soa_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  bc_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  bc_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  bc_a4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  dst_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  dst_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  ncl_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  ncl_a2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  ncl_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  mom_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  mom_a2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  mom_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  mom_a4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  num_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  num_a2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  num_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  num_a4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  num_a5 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcso4_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcsea_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcsea_a2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcsea_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcsea_a4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcsea_a5 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcdst_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcdst_a2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcdst_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcdst_a4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcdst_a5 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcbco_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcbci_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcoco_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcoci_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcnh3_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcnh4_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcnit_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcsoa_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  horiz_winds [physics] &lt;ncol,dim,lev&gt;(218,2,72) [m/s]</font></td></tr>
+      <tr><td align="left"><font color="black">  u10_cubed [physics] &lt;ncol&gt;(218) [m/s]</font></td></tr>
+      <tr><td align="left"><b><font color="#00667E">Required Fields:</font></b></td></tr>
+      <tr><td align="left"><font color="black">  O3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  OH [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  HO2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  H2O2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CH2O [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CH3O2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CH3OOH [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  NO [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  NO2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  NO3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  N2O5 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  HNO3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  HO2NO2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  PAN [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CO [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  C2H6 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  C3H8 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  C2H4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  ROHO2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CH3COCH3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  C2H5O2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  C2H5OOH [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CH3CHO [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CH3CO3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  ISOP [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  ISOP_VBS [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  ISOPO2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  C10H16 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  MVKMACR [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  MVKO2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  E90 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  N2OLNZ [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  NOYLNZ [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CH4LNZ [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  H2OLNZ [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  DMS [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SO2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  H2SO4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG0 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG15 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG24 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG31 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG32 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG33 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG34 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG35 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  so4_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  so4_a2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  so4_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  so4_a5 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  pom_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  pom_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  pom_a4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  soa_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  soa_a2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  soa_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  bc_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  bc_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  bc_a4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  dst_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  dst_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  ncl_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  ncl_a2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  ncl_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  mom_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  mom_a2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  mom_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  mom_a4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  num_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  num_a2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  num_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  num_a4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  num_a5 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcso4_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcsea_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcsea_a2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcsea_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcsea_a4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcsea_a5 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcdst_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcdst_a2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcdst_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcdst_a4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcdst_a5 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcbco_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcbci_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcoco_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcoci_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcnh3_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcnh4_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcnit_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcsoa_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  horiz_winds [physics] &lt;ncol,dim,lev&gt;(218,2,72) [m/s]</font></td></tr>
+      <tr><td align="left"><font color="#006219">  sst [physics] &lt;ncol&gt;(218) [K]<b>  (Init. Cond.)</b></font></td></tr>
+      <tr><td align="left"><font color="#006219">  ocnfrac [physics] &lt;ncol&gt;(218) [1]<b>  (Init. Cond.)</b></font></td></tr>
+      <tr><td align="left"><font color="#006219">  p_mid [physics] &lt;ncol,lev&gt;(218,72) [Pa]<b>  (Init. Cond.)</b></font></td></tr>
+      <tr><td align="left"><font color="#006219">  T_mid [physics] &lt;ncol,lev&gt;(218,72) [K]<b>  (Init. Cond.)</b></font></td></tr>
+      <tr><td align="left"><font color="#006219">  cldfrac_tot [physics] &lt;ncol,lev&gt;(218,72) [1]<b>  (Init. Cond.)</b></font></td></tr>
+      <tr><td align="left"><font color="#006219">  AtmosphereDensity [physics] &lt;ncol,lev&gt;(218,72) [kg/(m^3)]<b>  (Init. Cond.)</b></font></td></tr>
+      <tr><td align="left"><font color="#006219">  qv [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]<b>  (Init. Cond.)</b></font></td></tr>
+      <tr><td align="left"><font color="#006219">  nc [physics] &lt;ncol,lev&gt;(218,72) [1/kg]<b>  (Init. Cond.)</b></font></td></tr>
+      <tr><td align="left"><font color="#006219">  pseudo_density [physics] &lt;ncol,lev&gt;(218,72) [Pa]<b>  (Init. Cond.)</b></font></td></tr>
+      <tr><td align="left"><font color="#006219">  qc [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]<b>  (Init. Cond.)</b></font></td></tr>
+    </table>
+  >
+];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+0->2[penwidth=4];
+1 [
+  shape=box
+  color="#00667E"
+  fontcolor="#00667E"
+  style=filled
+  fillcolor="#b9d4dc"
+  penwidth=4
+  fontsize=30
+  label=<
+    <table border="0">
+      <tr><td><b><font point-size="40">Begin of atm time step</font></b></td></tr>
+      <hr/>
+      <tr><td align="left"><b><font color="#00667E">Atm input fields from previous time step:</font></b></td></tr>
+      <tr><td align="left"><font color="black">  O3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  OH [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  HO2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  H2O2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CH2O [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CH3O2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CH3OOH [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  NO [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  NO2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  NO3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  N2O5 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  HNO3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  HO2NO2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  PAN [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CO [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  C2H6 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  C3H8 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  C2H4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  ROHO2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CH3COCH3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  C2H5O2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  C2H5OOH [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CH3CHO [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CH3CO3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  ISOP [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  ISOP_VBS [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  ISOPO2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  C10H16 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  MVKMACR [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  MVKO2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  E90 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  N2OLNZ [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  NOYLNZ [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CH4LNZ [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  H2OLNZ [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  DMS [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SO2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  H2SO4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG0 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG15 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG24 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG31 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG32 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG33 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG34 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG35 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  so4_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  so4_a2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  so4_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  so4_a5 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  pom_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  pom_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  pom_a4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  soa_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  soa_a2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  soa_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  bc_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  bc_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  bc_a4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  dst_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  dst_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  ncl_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  ncl_a2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  ncl_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  mom_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  mom_a2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  mom_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  mom_a4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  num_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  num_a2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  num_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  num_a4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  num_a5 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcso4_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcsea_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcsea_a2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcsea_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcsea_a4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcsea_a5 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcdst_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcdst_a2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcdst_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcdst_a4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcdst_a5 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcbco_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcbci_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcoco_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcoci_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcnh3_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcnh4_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcnit_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcsoa_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  horiz_winds [physics] &lt;ncol,dim,lev&gt;(218,2,72) [m/s]</font></td></tr>
+    </table>
+  >
+];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+1->0[penwidth=4];
+2 [
+  shape=box
+  color="#88621e"
+  fontcolor="#88621e"
+  style=filled
+  fillcolor="#dccfb9"
+  penwidth=4
+  fontsize=30
+  label=<
+    <table border="0">
+      <tr><td><b><font point-size="40">End of atm time step</font></b></td></tr>
+      <hr/>
+      <tr><td align="left"><b><font color="#88621e">Atm output fields for next time step:</font></b></td></tr>
+      <tr><td align="left"><font color="black">  O3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  OH [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  HO2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  H2O2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CH2O [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CH3O2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CH3OOH [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  NO [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  NO2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  NO3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  N2O5 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  HNO3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  HO2NO2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  PAN [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CO [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  C2H6 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  C3H8 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  C2H4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  ROHO2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CH3COCH3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  C2H5O2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  C2H5OOH [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CH3CHO [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CH3CO3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  ISOP [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  ISOP_VBS [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  ISOPO2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  C10H16 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  MVKMACR [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  MVKO2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  E90 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  N2OLNZ [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  NOYLNZ [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CH4LNZ [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  H2OLNZ [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  DMS [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SO2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  H2SO4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG0 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG15 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG24 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG31 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG32 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG33 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG34 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG35 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  so4_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  so4_a2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  so4_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  so4_a5 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  pom_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  pom_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  pom_a4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  soa_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  soa_a2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  soa_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  bc_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  bc_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  bc_a4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  dst_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  dst_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  ncl_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  ncl_a2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  ncl_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  mom_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  mom_a2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  mom_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  mom_a4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  num_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  num_a2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  num_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  num_a4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  num_a5 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcso4_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcsea_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcsea_a2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcsea_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcsea_a4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcsea_a5 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcdst_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcdst_a2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcdst_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcdst_a4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcdst_a5 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcbco_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcbci_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcoco_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcoci_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcnh3_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcnh4_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcnit_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcsoa_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  horiz_winds [physics] &lt;ncol,dim,lev&gt;(218,2,72) [m/s]</font></td></tr>
+    </table>
+  >
+];
+4 [
+  shape=box
+  color="#006219"
+  fontcolor="#006219"
+  style=filled
+  fillcolor="#b9dcc2"
+  penwidth=4
+  fontsize=30
+  label=<
+    <table border="0">
+      <tr><td><b><font point-size="40">Initial Conditions</font></b></td></tr>
+      <hr/>
+      <tr><td align="left"><b><font color="#00667E">Initial Fields:</font></b></td></tr>
+      <tr><td align="left"><font color="black">  O3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  OH [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  HO2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  H2O2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CH2O [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CH3O2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CH3OOH [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  NO [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  NO2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  NO3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  N2O5 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  HNO3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  HO2NO2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  PAN [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CO [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  C2H6 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  C3H8 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  C2H4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  ROHO2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CH3COCH3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  C2H5O2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  C2H5OOH [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CH3CHO [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CH3CO3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  ISOP [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  ISOP_VBS [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  ISOPO2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  C10H16 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  MVKMACR [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  MVKO2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  E90 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  N2OLNZ [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  NOYLNZ [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  CH4LNZ [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  H2OLNZ [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  DMS [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SO2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  H2SO4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG0 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG15 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG24 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG31 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG32 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG33 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG34 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  SOAG35 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  so4_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  so4_a2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  so4_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  so4_a5 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  pom_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  pom_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  pom_a4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  soa_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  soa_a2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  soa_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  bc_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  bc_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  bc_a4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  dst_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  dst_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  ncl_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  ncl_a2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  ncl_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  mom_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  mom_a2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  mom_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  mom_a4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  num_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  num_a2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  num_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  num_a4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  num_a5 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcso4_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcsea_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcsea_a2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcsea_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcsea_a4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcsea_a5 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcdst_a1 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcdst_a2 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcdst_a3 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcdst_a4 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcdst_a5 [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcbco_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcbci_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcoco_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcoci_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcnh3_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcnh4_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcnit_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  gcsoa_a [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  horiz_winds [physics] &lt;ncol,dim,lev&gt;(218,2,72) [m/s]</font></td></tr>
+      <tr><td align="left"><font color="black">  sst [physics] &lt;ncol&gt;(218) [K]</font></td></tr>
+      <tr><td align="left"><font color="black">  ocnfrac [physics] &lt;ncol&gt;(218) [1]</font></td></tr>
+      <tr><td align="left"><font color="black">  p_mid [physics] &lt;ncol,lev&gt;(218,72) [Pa]</font></td></tr>
+      <tr><td align="left"><font color="black">  T_mid [physics] &lt;ncol,lev&gt;(218,72) [K]</font></td></tr>
+      <tr><td align="left"><font color="black">  cldfrac_tot [physics] &lt;ncol,lev&gt;(218,72) [1]</font></td></tr>
+      <tr><td align="left"><font color="black">  AtmosphereDensity [physics] &lt;ncol,lev&gt;(218,72) [kg/(m^3)]</font></td></tr>
+      <tr><td align="left"><font color="black">  qv [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  nc [physics] &lt;ncol,lev&gt;(218,72) [1/kg]</font></td></tr>
+      <tr><td align="left"><font color="black">  pseudo_density [physics] &lt;ncol,lev&gt;(218,72) [Pa]</font></td></tr>
+      <tr><td align="left"><font color="black">  qc [physics] &lt;ncol,lev&gt;(218,72) [kg/kg]</font></td></tr>
+    </table>
+  >
+];
+4->1[penwidth=4];
+4->0[penwidth=4];
+5 [
+  shape=box
+  color="#605d57"
+  fontcolor="#031576"
+  penwidth=8
+  fontsize=40
+  style=filled
+  fillcolor="#cccccc"
+  align="center"
+  label=<<b><font color="#3d2906">NOTE:</font> Fields denoted with <font color="#006219"><b>green text</b></font> <br align="center"/>indicate the field was provided by the <br align="center"/>initial conditions and never updated</b>>
+];
+}

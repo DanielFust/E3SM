@@ -1,0 +1,78 @@
+  [EAMxx] Run  start time stamp: 2021-10-12-45000
+  [EAMxx] Case start time stamp: 2021-10-12-45000
+[EAMxx] create_output_managers ...
+[EAMxx] create_output_managers ... done!
+[EAMxx] create_atm_processes  ...
+[EAMxx] create_atm_processes  ... done!
+[EAMxx] create_grids ...
+[EAMxx] create_grids ... done!
+[EAMxx] create_fields ...
+[EAMxx] create_fields ... done!
+[EAMxx] initialize_fields ...
+  [EAMxx] set_initial_conditions ...
+    [EAMxx] IC filename: /global/cfs/cdirs/e3sm/inputdata/atm/scream/init/screami_unit_tests_ne2np4L72_20220822.nc
+  [EAMxx] set_initial_conditions ... done!
+[EAMxx] initialize_fields ... done!
+[EAMxx] initialize_atm_procs ...
+  Initializing EAMxx...
+  Initializing GOCART...
+  Initializing GOCART... done!
+  Initializing EAMxx... done!
+[EAMxx] initialize_atm_procs ... done!
+[EAMxx::init] resolution-dependent device memory footprint: 12.858512MB
+[EAMxx] initialize_output_managers ...
+[EAMxx::output_manager] - Writing model-output:
+[EAMxx::output_manager]      FILE: gocart_standalone_output.INSTANT.nsteps_x1.np1.2021-10-12-45000.nc
+[EAMxx::scorpio_output] Writing variables to file
+  file name: gocart_standalone_output.INSTANT.nsteps_x1.np1.2021-10-12-45000.nc
+  Done! Elapsed time: 0.033000 seconds
+[EAMxx::output_manager] - New Output stream
+           Filename prefix: gocart_standalone_output
+                    Run t0: 2021-10-12-45000
+                   Case t0: 2021-10-12-45000
+              Reference t0: 2021-10-12-45000
+         Is Restart File ?: NO
+                 Run type : initial
+            averaging_type: INSTANT
+          Output Frequency: 1 nsteps
+             File Capacity: 4snapshots
+      Includes Grid Data ?: YES
+[EAMxx] initialize_output_managers ... done!
+Atmosphere step = 1
+  model beg-of-step timestamp: 2021-10-12 12:30:00
+  model end-of-step timestamp: 2021-10-22 12:30:00
+
+[EAMxx::output_manager] - Writing model-output:
+[EAMxx::output_manager]      FILE: gocart_standalone_output.INSTANT.nsteps_x1.np1.2021-10-12-45000.nc
+[EAMxx::scorpio_output] Writing variables to file
+  file name: gocart_standalone_output.INSTANT.nsteps_x1.np1.2021-10-12-45000.nc
+  Done! Elapsed time: 0.130000 seconds
+Atmosphere step = 2
+  model beg-of-step timestamp: 2021-10-22 12:30:00
+  model end-of-step timestamp: 2021-11-01 12:30:00
+
+[EAMxx::output_manager] - Writing model-output:
+[EAMxx::output_manager]      FILE: gocart_standalone_output.INSTANT.nsteps_x1.np1.2021-10-12-45000.nc
+[EAMxx::scorpio_output] Writing variables to file
+  file name: gocart_standalone_output.INSTANT.nsteps_x1.np1.2021-10-12-45000.nc
+  Done! Elapsed time: 0.058000 seconds
+Atmosphere step = 3
+  model beg-of-step timestamp: 2021-11-01 12:30:00
+  model end-of-step timestamp: 2021-11-11 12:30:00
+
+[EAMxx::output_manager] - Writing model-output:
+[EAMxx::output_manager]      FILE: gocart_standalone_output.INSTANT.nsteps_x1.np1.2021-10-12-45000.nc
+[EAMxx::scorpio_output] Writing variables to file
+  file name: gocart_standalone_output.INSTANT.nsteps_x1.np1.2021-10-12-45000.nc
+  Done! Elapsed time: 0.113000 seconds
+Atmosphere step = 4
+  model beg-of-step timestamp: 2021-11-11 12:30:00
+  model end-of-step timestamp: 2021-11-21 12:30:00
+
+[EAMxx::output_manager] - Writing model-output:
+[EAMxx::output_manager]      FILE: gocart_standalone_output.INSTANT.nsteps_x1.np1.2021-11-21-45000.nc
+[EAMxx::scorpio_output] Writing variables to file
+  file name: gocart_standalone_output.INSTANT.nsteps_x1.np1.2021-11-21-45000.nc
+  Done! Elapsed time: 0.026000 seconds
+[EAMxx] Finalize ...
+[EAMxx] Finalize ... done!
