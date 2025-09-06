@@ -584,11 +584,60 @@ be lost if SCREAM_HACK_XML is not enabled.
     <!-- Turbulent Mountain Stress -->
     <tms inherit="atm_proc_base"/>
 
+    <!-- GOCART -->
+    <!-- <gocart inherit="atm_proc_base"/> -->
+    <gocart inherit="atm_proc_base">
+      <gocart_so2_elevated_emiss_file_name          type="file" doc="File containing elevated emissions data for SO2">${DIN_LOC_ROOT}/atm/cam/chem/trop_mozart_aero/emis/DECK_ne30/cmip6_mam4_so2_elev_1x1_2010_clim_c20190821.nc</gocart_so2_elevated_emiss_file_name>
+      <gocart_soa_elevated_emiss_file_name          type="file" doc="File containing elevated emissions data for SOA (Secondary Organic Aerosol) G0">${DIN_LOC_ROOT}/atm/cam/chem/trop_mozart_aero/emis/DECK_ne30/emissions-cmip6_e3sm_SOAG0_elev_2010_clim_1.9x2.5_c20230213.nc</gocart_soa_elevated_emiss_file_name>
+      <gocart_bc_a4_elevated_emiss_file_name        type="file" doc="File containing elevated emissions data for BC (Black Carbon?)">${DIN_LOC_ROOT}/atm/cam/chem/trop_mozart_aero/emis/DECK_ne30/cmip6_mam4_bc_a4_elev_1x1_2010_clim_c20190821.nc</gocart_bc_a4_elevated_emiss_file_name>
+      <gocart_num_a1_elevated_emiss_file_name       type="file" doc="File containing elevated emissions data for NUM (???) A1">${DIN_LOC_ROOT}/atm/cam/chem/trop_mozart_aero/emis/DECK_ne30/cmip6_mam4_num_a1_elev_1x1_2010_clim_c20190821.nc</gocart_num_a1_elevated_emiss_file_name>
+      <gocart_num_a2_elevated_emiss_file_name       type="file" doc="File containing elevated emissions data for NUM (???) A2">${DIN_LOC_ROOT}/atm/cam/chem/trop_mozart_aero/emis/DECK_ne30/cmip6_mam4_num_a2_elev_1x1_2010_clim_c20190821.nc</gocart_num_a2_elevated_emiss_file_name>
+      <gocart_num_a4_elevated_emiss_file_name       type="file" doc="File containing elevated emissions data for NUM (???) A4">${DIN_LOC_ROOT}/atm/cam/chem/trop_mozart_aero/emis/DECK_ne30/cmip6_mam4_num_a4_elev_1x1_2010_clim_c20190821.nc</gocart_num_a4_elevated_emiss_file_name>
+      <gocart_pom_a4_elevated_emiss_file_name       type="file" doc="File containing elevated emissions data for POM A4">${DIN_LOC_ROOT}/atm/cam/chem/trop_mozart_aero/emis/DECK_ne30/cmip6_mam4_pom_a4_elev_1x1_2010_clim_c20190821.nc</gocart_pom_a4_elevated_emiss_file_name>
+      <gocart_so4_a1_elevated_emiss_file_name       type="file" doc="File containing elevated emissions data for SO4 A1">${DIN_LOC_ROOT}/atm/cam/chem/trop_mozart_aero/emis/DECK_ne30/cmip6_mam4_so4_a1_elev_1x1_2010_clim_c20190821.nc</gocart_so4_a1_elevated_emiss_file_name>
+      <gocart_so4_a2_elevated_emiss_file_name       type="file" doc="File containing elevated emissions data for SO4 A2">${DIN_LOC_ROOT}/atm/cam/chem/trop_mozart_aero/emis/DECK_ne30/cmip6_mam4_so4_a2_elev_1x1_2010_clim_c20190821.nc</gocart_so4_a2_elevated_emiss_file_name>
+      <!-- Surface emissions -->
+      <gocart_c10h16_surf_emiss_file_name           type="file" doc="File containing surface emissions data for C10H16">${DIN_LOC_ROOT}/atm/cam/chem/trop_mozart_aero/emis/chem_gases/2degrees/emissions-cmip6_e3sm_MTERP_surface_2010_clim_1.9x2.5_c20230213.nc</gocart_c10h16_surf_emiss_file_name>
+      <gocart_c2h4_surf_emiss_file_name             type="file" doc="File containing surface emissions data for C2H4">${DIN_LOC_ROOT}/atm/cam/chem/trop_mozart_aero/emis/chem_gases/2degrees/emissions-cmip6_e3sm_C2H4_surface_2010_clim_1.9x2.5_c20230213.nc</gocart_c2h4_surf_emiss_file_name>
+      <gocart_c2h6_surf_emiss_file_name             type="file" doc="File containing surface emissions data for C2H6">${DIN_LOC_ROOT}/atm/cam/chem/trop_mozart_aero/emis/chem_gases/2degrees/emissions-cmip6_e3sm_C2H6_surface_2010_clim_1.9x2.5_c20230213.nc</gocart_c2h6_surf_emiss_file_name>
+      <gocart_c3h8_surf_emiss_file_name             type="file" doc="File containing surface emissions data for C3H8">${DIN_LOC_ROOT}/atm/cam/chem/trop_mozart_aero/emis/chem_gases/2degrees/emissions-cmip6_e3sm_C3H8_surface_2010_clim_1.9x2.5_c20230213.nc</gocart_c3h8_surf_emiss_file_name>
+      <gocart_ch2o_surf_emiss_file_name             type="file" doc="File containing surface emissions data for CH2O">${DIN_LOC_ROOT}/atm/cam/chem/trop_mozart_aero/emis/chem_gases/2degrees/emissions-cmip6_e3sm_CH2O_surface_2010_clim_1.9x2.5_c20230213.nc</gocart_ch2o_surf_emiss_file_name>
+      <gocart_ch3cho_surf_emiss_file_name           type="file" doc="File containing surface emissions data for CH3CHO">${DIN_LOC_ROOT}/atm/cam/chem/trop_mozart_aero/emis/chem_gases/2degrees/emissions-cmip6_e3sm_CH3CHO_surface_2010_clim_1.9x2.5_c20230213.nc</gocart_ch3cho_surf_emiss_file_name>
+      <gocart_ch3coch3_surf_emiss_file_name         type="file" doc="File containing surface emissions data for CH3COCH3">${DIN_LOC_ROOT}/atm/cam/chem/trop_mozart_aero/emis/chem_gases/2degrees/emissions-cmip6_e3sm_CH3COCH3_surface_2010_clim_1.9x2.5_c20230213.nc</gocart_ch3coch3_surf_emiss_file_name>
+      <gocart_co_surf_emiss_file_name               type="file" doc="File containing surface emissions data for CO">${DIN_LOC_ROOT}/atm/cam/chem/trop_mozart_aero/emis/chem_gases/2degrees/emissions-cmip6_e3sm_CO_surface_2010_clim_1.9x2.5_c20230213.nc</gocart_co_surf_emiss_file_name>
+      <gocart_dms_surf_emiss_file_name              type="file" doc="File containing surface emissions data for DMS">${DIN_LOC_ROOT}/atm/cam/chem/trop_mozart_aero/emis/DMSflux.2010.1deg_latlon_conserv.POPmonthlyClimFromACES4BGC_c20190220.nc</gocart_dms_surf_emiss_file_name>
+      <gocart_e90_surf_emiss_file_name              type="file" doc="File containing surface emissions data for E90">${DIN_LOC_ROOT}/atm/cam/chem/trop_mozart_aero/emis/chem_gases/2degrees/emissions_E90_surface_2010_clim_1.9x2.5_c20230213.nc</gocart_e90_surf_emiss_file_name>
+      <gocart_isop_surf_emiss_file_name             type="file" doc="File containing surface emissions data for ISOP">${DIN_LOC_ROOT}/atm/cam/chem/trop_mozart_aero/emis/chem_gases/2degrees/emissions-cmip6_e3sm_ISOP_surface_2010_clim_1.9x2.5_c20230213.nc</gocart_isop_surf_emiss_file_name>
+      <gocart_isop_vbs_surf_emiss_file_name         type="file" doc="File containing surface emissions data for ISOP VBS">${DIN_LOC_ROOT}/atm/cam/chem/trop_mozart_aero/emis/chem_gases/2degrees/emissions-cmip6_e3sm_ISOP_surface_2010_clim_1.9x2.5_c20230213.nc</gocart_isop_vbs_surf_emiss_file_name>
+      <gocart_no_surf_emiss_file_name               type="file" doc="File containing surface emissions data for NO">${DIN_LOC_ROOT}/atm/cam/chem/trop_mozart_aero/emis/chem_gases/2degrees/emissions-cmip6_e3sm_NO_surface_2010_clim_1.9x2.5_c20230213.nc</gocart_no_surf_emiss_file_name>
+      <gocart_so2_surf_emiss_file_name              type="file" doc="File containing surface emissions data for SO2">${DIN_LOC_ROOT}/atm/cam/chem/trop_mozart_aero/emis/DECK_ne30/cmip6_mam4_so2_surf_1x1_2010_clim_c20190821.nc</gocart_so2_surf_emiss_file_name>
+      <gocart_soag0_surf_emiss_file_name            type="file" doc="File containing surface emissions data for SOAG0">${DIN_LOC_ROOT}/atm/cam/chem/trop_mozart_aero/emis/DECK_ne30/emissions-cmip6_e3sm_SOAG0_surf_2010_clim_1.9x2.5_c20230213.nc</gocart_soag0_surf_emiss_file_name>
+      <gocart_bc_a4_surf_emiss_file_name            type="file" doc="File containing surface emissions data for BC A4">${DIN_LOC_ROOT}/atm/cam/chem/trop_mozart_aero/emis/DECK_ne30/cmip6_mam4_bc_a4_surf_1x1_2010_clim_c20190821.nc</gocart_bc_a4_surf_emiss_file_name>
+      <gocart_num_a1_surf_emiss_file_name           type="file" doc="File containing surface emissions data for NUM A1">${DIN_LOC_ROOT}/atm/cam/chem/trop_mozart_aero/emis/DECK_ne30/cmip6_mam4_num_a1_surf_1x1_2010_clim_c20190821.nc</gocart_num_a1_surf_emiss_file_name>
+      <gocart_num_a2_surf_emiss_file_name           type="file" doc="File containing surface emissions data for NUM A2">${DIN_LOC_ROOT}/atm/cam/chem/trop_mozart_aero/emis/DECK_ne30/cmip6_mam4_num_a2_surf_1x1_2010_clim_c20190821.nc</gocart_num_a2_surf_emiss_file_name>
+      <gocart_num_a4_surf_emiss_file_name           type="file" doc="File containing surface emissions data for NUM A4">${DIN_LOC_ROOT}/atm/cam/chem/trop_mozart_aero/emis/DECK_ne30/cmip6_mam4_num_a4_surf_1x1_2010_clim_c20190821.nc</gocart_num_a4_surf_emiss_file_name>
+      <gocart_pom_a4_surf_emiss_file_name           type="file" doc="File containing surface emissions data for POM A4">${DIN_LOC_ROOT}/atm/cam/chem/trop_mozart_aero/emis/DECK_ne30/cmip6_mam4_pom_a4_surf_1x1_2010_clim_c20190821.nc</gocart_pom_a4_surf_emiss_file_name>
+      <gocart_so4_a1_surf_emiss_file_name           type="file" doc="File containing surface emissions data for SO4 A1">${DIN_LOC_ROOT}/atm/cam/chem/trop_mozart_aero/emis/DECK_ne30/cmip6_mam4_so4_a1_surf_1x1_2010_clim_c20190821.nc</gocart_so4_a1_surf_emiss_file_name>
+      <gocart_so4_a2_surf_emiss_file_name           type="file" doc="File containing surface emissions data for SO4 A2">${DIN_LOC_ROOT}/atm/cam/chem/trop_mozart_aero/emis/DECK_ne30/cmip6_mam4_so4_a2_surf_1x1_2010_clim_c20190821.nc</gocart_so4_a2_surf_emiss_file_name>
+
+      <!-- Mapping Files for surface emissions (same as MAM4) -->
+      <srf_remap_file type="file" doc="File containing mapping data from the grid of emission files to the model grid. Unused if the grid is the same.">none</srf_remap_file>
+      <srf_remap_file hgrid="ne120np4.pg2">${DIN_LOC_ROOT}/atm/scream/maps/map_ne30pg2_to_ne120pg2_20231201.nc</srf_remap_file>
+      <srf_remap_file hgrid="ne256np4.pg2">${DIN_LOC_ROOT}/atm/scream/maps/map_ne30pg2_to_ne256pg2_20231201.nc</srf_remap_file>
+      <srf_remap_file hgrid="ne512np4.pg2">${DIN_LOC_ROOT}/atm/scream/maps/map_ne30pg2_to_ne512pg2_20231201.nc</srf_remap_file>
+      <srf_remap_file hgrid="ne1024np4.pg2">${DIN_LOC_ROOT}/atm/scream/maps/map_ne30pg2_to_ne1024pg2_20231201.nc</srf_remap_file>
+
+      <!-- user EAM input namelist -->
+      <gocart_eam_namelist_file> ${SCREAM_BASE_DIR}/src/physics/gocart/default-data/user_nl_eam</gocart_eam_namelist_file>
+    </gocart>
+
     <physics inherit="atm_proc_group">
       <atm_procs_list>mac_aero_mic,rrtmgp</atm_procs_list>
       <atm_procs_list COMPSET=".*SCREAM%MAM4xx.*">mam4_constituent_fluxes,mac_aero_mic,mam4_wetscav,mam4_optics,rrtmgp,mam4_srf_online_emiss,mam4_aero_microphys,mam4_drydep</atm_procs_list>
       <atm_procs_list COMPSET=".*DP-EAMxx">iop_forcing,mac_aero_mic,rrtmgp</atm_procs_list>
     </physics>
+
+   
   </atmosphere_processes_defaults>
 
   <!-- Grids manager specs -->
@@ -660,6 +709,48 @@ be lost if SCREAM_HACK_XML is not enabled.
     <nc_nuceat_tend    >0.0</nc_nuceat_tend>
     <!-- SHOC internally inits TKE; just set to 0 here to signal it's not in the IC file -->
     <tke               >0.0</tke>
+    <!-- GOCART tracer initialization -->
+    <gcso4_a           >0.0</gcso4_a>
+    <gcsea_a1          >0.0</gcsea_a1>
+    <gcsea_a2          >0.0</gcsea_a2>
+    <gcsea_a3          >0.0</gcsea_a3>
+    <gcsea_a4          >0.0</gcsea_a4>
+    <gcsea_a5          >0.0</gcsea_a5>
+    <gcdst_a1          >0.0</gcdst_a1>
+    <gcdst_a2          >0.0</gcdst_a2>
+    <gcdst_a3          >0.0</gcdst_a3>
+    <gcdst_a4          >0.0</gcdst_a4>
+    <gcdst_a5          >0.0</gcdst_a5>
+    <gcbco_a           >0.0</gcbco_a>
+    <gcbci_a           >0.0</gcbci_a>
+    <gcoco_a           >0.0</gcoco_a>
+    <gcoci_a           >0.0</gcoci_a>
+    <gcnh3_a           >0.0</gcnh3_a>
+    <gcnh4_a           >0.0</gcnh4_a>
+    <gcnit_a           >0.0</gcnit_a>
+    <gcsoa_a           >0.0</gcsoa_a>
+    <c10h16            >0.0</c10h16>
+    <c2h4              >0.0</c2h4>
+    <c2h6              >0.0</c2h6>
+    <c3h8              >0.0</c3h8>
+    <ch2o              >0.0</ch2o>
+    <ch3cho            >0.0</ch3cho>
+    <ch3coch3          >0.0</ch3coch3>
+    <co                >0.0</co>
+    <dms               >0.0</dms>
+    <e90               >0.0</e90>
+    <isop              >0.0</isop>
+    <isop_vbs          >0.0</isop_vbs>
+    <no                >0.0</no>
+    <so2               >0.0</so2>
+    <soag0             >0.0</soag0>
+    <bc_a4             >0.0</bc_a4>
+    <num_a1            >0.0</num_a1>
+    <num_a2            >0.0</num_a2>
+    <num_a4            >0.0</num_a4>
+    <pom_a4            >0.0</pom_a4>
+    <so4_a1            >0.0</so4_a1>
+    <so4_a2            >0.0</so4_a2>
     <!-- Note: these should be provided by surface models, but we init here to keep AD from reading from file -->
     <sfc_alb_dir_vis   >0.0</sfc_alb_dir_vis>
     <sfc_alb_dir_nir   >0.0</sfc_alb_dir_nir>
